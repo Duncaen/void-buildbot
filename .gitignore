@@ -1,0 +1,14 @@
+master/*/
+worker1/*/
+!worker1/info/
+service/*
+!service/.keep
+virtualenv
+supervise/
+secrets.py
+*.log
+*.pid
+*.sqlite
+buildbot.tac
+*.hostname
+*.pyc

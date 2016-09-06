@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec buildbot-worker start --nodaemon ../../worker1
